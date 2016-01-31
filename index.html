@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Сборка - онлайн сервис печати с готовых макетов для рекламных агентств, типографий, посредников</title>
+
+    <!--MyStyle-->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!--LOGO ON FIRST PAGE-->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-lg-12 col-ex-12 col-sm-12">
+          <div class="main-logo">
+            <p>
+              <a href="">
+                <img src="images/logo.png" alt="Сборка"/>
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--//LOGO ON FIRST PAGE-->
+    <!--TEXT-PROMO-->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="textpromo">
+              <h1 class="text-uppercase"><br>Онлайн сервис печати </h1>
+              <h3 class="text-uppercase">для рекламных агентств, типографий, посредников</h3>
+              <br>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--//TEXT-PROMO-->
+    <!--BtnPromo-->
+    <div class="container">
+      <div class="row">
+        <div class="btnpromo">
+
+          <div class="col-lg-6">
+            <button class="btn btn-success btn-lg navbar-right" type="button" data-toggle="modal" data-target="#Modal-Login">Войти</button>
+          </div>
+
+          <div class="col-lg-6">
+            <button class="btn btn-primary btn-lg" type="button" data-toggle="modal" data-target="#Modal-Registration">Стать дилером</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!--//BtnPromo-->
+    <!--List-Inline-->
+    <div class="container">
+      <div class="row">
+        <div class="navbar">
+          <hr>
+            <ul class="list-inline indexlinks">
+              <li><p>Цифровая печать</p></li>
+              <li><p>Офсетная  печать</p></li>
+              <li><p>Широкоформатная печать</p></li>
+              <li><p>Пластиковые карты</p></li>
+            </ul>
+          <hr>
+        </div>
+      </div>
+    </div>
+    <!--//List-Inline-->
+    <!--FOOTER-->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-xs-12 col-lg-12 col-sm-12">
+          <p style="text-align:center; color:rgba(0,0,0,.5);">поддержка
+            <span style="color:#428bca">Пн-Пт 9.00-19.00</span>
+            бесплатный звонок
+            <span style="color:#428bca">0 000 000 000</span>
+            | связаться
+            <span style="color:#428bca">
+              <a style="text-decoration: none;" href="#"  data-toggle="modal" data-target="#Modal-Contact">Контакты</a>
+            </span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--//FOOTER-->
+
+    <!--Modal-Login-->
+    <!-- Modal -->
+    <div class="modal fade" id="Modal-Login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <center><h4 class="modal-title" id="myModalLabel">Введите ваши данные</h4></center>
+          </div>
+          <div class="modal-body">
+            <form class="form-horizontal" role="form">
+              <div class="form-group">
+                <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+                <div class="col-sm-10">
+                <input type="email" class="form-control inputboxs" id="inputEmail3" placeholder="Email">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputPassword3" class="col-sm-2 control-label">Пароль</label>
+                <div class="col-sm-10">
+                <input type="password" class="form-control inputboxs" id="inputPassword3" placeholder="Пароль">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                <div class="checkbox">
+                  <label>
+                  <input type="checkbox"> Запомнить меня
+                  </label>
+                </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn btn-success">Войти</button>
+                <button  type="button" class="btn btn-success" data-dismiss="modal" aria-hidden="true">Отмена</button>
+                </div>
+              </div>
+              </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--//Modal-Login-->
+
+    <!--Modal-Register-->
+      <div class="modal fade" id="Modal-Registration" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <center><h4 class="modal-title" id="myModalLabel">Регистрация</h4></center>
+            </div>
+            <div class="modal-body">
+              <form class="form-horizontal" role="form">
+                <div class="form-group">
+                  <label for="inputEmail" class="col-sm-2 control-label">Логин</label>
+                  <div class="col-sm-10">
+                  <input type="login" class="form-control inputboxs" id="inputEmail3" placeholder="Email">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="inputEmail" class="col-sm-2 control-label">Email</label>
+                  <div class="col-sm-10">
+                  <input type="email" class="form-control inputboxs" id="inputEmail3" placeholder="Email">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="inputPassword" class="col-sm-2 control-label">Пароль</label>
+                  <div class="col-sm-10">
+                  <input type="password" class="form-control inputboxs" id="inputPassword3" placeholder="Пароль">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="inputPassword" class="col-sm-2 control-label">Повторите пароль</label>
+                  <div class="col-sm-10">
+                  <input type="password" class="form-control inputboxs" id="inputPassword3" placeholder="Пароль">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="col-sm-offset-2 col-sm-10">
+                  <div class="checkbox">
+                    <label>
+                    <input type="checkbox"> Запомнить меня
+                    </label>
+                  </div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="col-sm-offset-2 col-sm-10">
+                  <button type="submit" class="btn btn-success">Регистрация</button>
+                  <button  type="button" class="btn btn-success" data-dismiss="modal" aria-hidden="true">Отмена</button>
+                  </div>
+                </div>
+                </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!--//Modal-Register-->
+
+    <!--Modal-Contact-->
+      <div class="modal fade" id="Modal-Contact" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <h4 class="modal-title" id="myModalLabel">Контакты</h4>
+            </div>
+            <div class="modal-body">
+                        <h4>Call-Centre: <a>0 800 60 62 51</a></h4>
+                            <strong></strong> звонки со всех телефонов (в т.ч. и мобильных) в пределах Украины бесплатны!
+                          <table border="0" class="table">
+                            <tbody><tr>
+                              <td>
+                                <p><strong>MTS</strong> 095 173-38-38<br><strong>MTS</strong> 095 173-39-39<br><strong>KYS</strong> 067 623-73-71<br>
+                                <strong>KYS</strong> 067 624-73-71<br><strong>KYS</strong> 098 399-54-19</p>
+                                 <p><strong>Общие вопросы</strong><br><a href="mailto:post@sborka.ua">post@sborka.ua</a></p>
+                                 <p><strong>Бухгалтерия</strong><br><a href="mailto:fin@sborka.ua">fin@sborka.ua</a></p>
+                                <p><strong>Предложения и замечания:</strong><br><a href="mailto:ds@sborka.ua">ds@sborka.ua</a></p>
+                                <p><strong>Отдел препресс-подготовки:</strong><br> <a href="mailto:post@sborka.ua">post@sborka.ua</a></p>
+                                <p><strong>для резюме</strong> <a href="mailto:olga@sborka.ua">olga@sborka.ua</a></p></td>
+                              <td><h4>График работы</h4>
+                                <p><strong>Прием макетов - круглосуточно онлайн (24/7/365)</strong></p>
+                                  <p><strong>Контакт центр:</strong><br>Понедельник - Пятница&nbsp;с 9:00 до 20:00<br>Суббота с 9:30 до 16:00</p>
+                                  <p><strong>Отдел допечатной подготовки - проверка макетов/консультация:</strong><br>
+                                    Понедельник - Пятница с 10:00 до 18:00<br>Суббота с 10:00 до 15:00</p>
+                                  <p><strong>Отдел доставки:</strong><br>Понедельник - Пятница с 10:00 до 18:00<br>Суббота с 10:00 до 15:00</p>
+                                  <p><strong>Бухгалтерия:</strong><br>Понедельник - Пятница с 9:00 до 19:00</p>
+                              </td>
+                            </tr>
+                          </tbody></table>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!--//Modal-Contact-->
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>
