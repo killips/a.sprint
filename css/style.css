@@ -56,3 +56,12 @@ body{
     -moz-box-sizing: content-box;
     box-sizing: content-box;
 }
+/*Style for Main Menu*/
+.ournavstyle{
+	background-color: #2e4659 !important;
+}
+@media (min-width: 768px){
+.navbar-nav > li {
+    margin-left: 10px;
+}
+}
