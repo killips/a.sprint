@@ -65,3 +65,25 @@ body{
     margin-left: 10px;
 }
 }
+/*Main-Footer*/
+.main-footer{
+	border-color: #080808;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: #2e4659;
+}
+/*crutch*/
+.crutch{
+	margin: 100px;
+	display: block;
+}
+.thumbnail  p{
+	text-align: center;
+}
+.thumbnail img{
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+	filter: gray;
+	-webkit-transition: all .6s ease;
+	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter ….3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+}
