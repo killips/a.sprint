@@ -88,10 +88,13 @@ body{
 	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter ….3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
 }
 
-.t_colonka {
-    float: left;
-    min-height: 1px;
-    padding: 6px;
-    position: relative;
-    width: 24%;
+.finance{
+	padding-top: 50px;
+	padding-bottom: 20px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.color-text{
+	color: white;
 }
